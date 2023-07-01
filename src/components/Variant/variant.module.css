@@ -1,0 +1,17 @@
+.variant {
+  font-size: 15px;
+  border: 0px solid black;
+  width: 200px;
+  background: #dff5dc9c;
+  margin-bottom: 5px;
+  height: 55px;
+  border-radius: 5px;
+}
+
+.styleCorrectAnswer {
+  background: #b1ffa59c;
+}
+
+.styleUnCorrectAnswer {
+  background: rgb(243, 108, 108);
+}

@@ -1,0 +1,17 @@
+.modal {
+  height: 100vh;
+  width: 100%;
+  background: rgba(85, 85, 249, 0.495);
+  position: fixed;
+  right: 0;
+  top: 0;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease, visibility 0.3s ease, right 0.3s ease;
+}
+
+.disabled {
+  opacity: 0;
+  visibility: hidden;
+  right: -100%;
+}

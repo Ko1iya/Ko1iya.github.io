@@ -1,0 +1,12 @@
+.containerProgressBar {
+  width: 250px;
+  margin: 5px auto 10px auto;
+  background: linear-gradient(to right, rgb(203 215 254), rgb(128 158 255));
+  border-radius: 2px;
+}
+.progressBar {
+  background: linear-gradient(to right, yellow, rgb(255, 196, 0));
+  height: 5px;
+  width: 50%;
+  border-radius: 2px;
+}
