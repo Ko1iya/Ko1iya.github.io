@@ -25,7 +25,9 @@ function Variant({
   return (
     <button
       disabled={!stateButton}
-      className={styles.variant}
+      className={`${styles.variant} ${
+        !stateButton ? (correct ? styles.buttonGreen : styles.buttonRed) : ""
+      }`}
       onClick={thisAnswer}
     >
       {text}

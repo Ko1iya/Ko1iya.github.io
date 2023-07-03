@@ -1,4 +1,4 @@
-const questions = [
+const questionsNoRandom = [
   {
     title: "React - это ... ?",
     variants: ["библиотека", "фреймворк", "приложение"],
@@ -64,5 +64,19 @@ const questions = [
     correct: 1,
   },
 ]
+
+interface questionsNoRandom {
+  title: string
+  variants: string[]
+  correct: number
+}
+
+function shuffleArray(array: questionsNoRandom[]) {
+  return array.sort(() => Math.random() - 0.5)
+}
+
+// Пример использования
+
+const questions = shuffleArray(questionsNoRandom)
 
 export default questions

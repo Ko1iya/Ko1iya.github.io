@@ -9,3 +9,7 @@
   display: block;
   font-size: 20px;
 }
+
+button:disabled {
+  color: #0000009c;
+}

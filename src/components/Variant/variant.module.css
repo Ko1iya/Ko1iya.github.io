@@ -7,7 +7,12 @@
   height: 55px;
   border-radius: 5px;
 }
-
+.buttonRed {
+  background: rgb(255, 122, 122);
+}
+.buttonGreen {
+  background: rgb(102, 217, 102);
+}
 .styleCorrectAnswer {
   background: #b1ffa59c;
 }

@@ -11,28 +11,8 @@
   right: 9px;
 
   align-items: center;
-}
-.questionWindow::before {
-  content: "";
-  background: #a1a179;
-  width: 335px;
-  height: 290px;
-  top: 20px;
-  left: 20px;
-  border-radius: 10px;
-  position: absolute;
-  z-index: -2;
-}
-.questionWindow::after {
-  content: "";
-  background: #baba8b;
-  width: 335px;
-  height: 290px;
-  top: 10px;
-  left: 10px;
-  border-radius: 10px;
-  position: absolute;
-  z-index: -1;
+
+  box-shadow: 10px 10px 0px -1px #baba8b, 19px 20px 0px -1px #a1a179;
 }
 
 .mainText {
