@@ -15,7 +15,5 @@ code {
 .App {
   background: #cad7ff;
   width: 100vw;
-  height: 100vh;
-  position: fixed;
-  z-index: -3;
+  min-height: 100vh;
 }
